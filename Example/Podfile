@@ -1,0 +1,6 @@
+use_frameworks!
+target 'LYAttributedString_Tests' do
+  pod 'LYAttributedString', :path => '../'
+  
+  
+end

@@ -1,0 +1,6 @@
+framework module LYAttributedString {
+  umbrella header "LYAttributedString-umbrella.h"
+
+  export *
+  module * { export * }
+}

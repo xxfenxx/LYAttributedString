@@ -1,42 +1,33 @@
-#
-# Be sure to run `pod lib lint LYAttributedString.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
   s.name             = 'LYAttributedString'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of LYAttributedString.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
+  s.summary          = 'This is a about NSString Category of LYAttributedString.'
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  基于NSMutableAttributedString封装的处理NSString的富文本Cagegory，能够满足大部分需求！
+    1. 设置某一段NSString字体大小
+    2. 设置某一段NSString字体颜色
+    3. 设置某一段NSString字体大小/颜色
+    4. 设置某一段NSString字体背景色
+    5. 设置某一段NSString字距
+    6. 设置某一段NSString对齐方式
+    7. 设置某一段NSString行间距/段落间距
+    8. 设置某一段NSString字距/行间距/段落间距
+    9. 给某一段NSString添加下划线
+    10. 给某一段NSString添加删除线 - 实线
+    11. 给某一段NSString添加删除线 - 虚线
+    12. 给某一段NSString设置字体阴影
+    13. 给某一段NSString设置字体横竖
+    14. 给某一段NSString设置字体描边宽度这样就能使"文字空心"
+    15. 给某一段NSString设置文字下沉偏移其他文字
+    16. 给某一段NSString设置文字倾斜
+    17. 给某一段NSString设置文字扁平
+    18. 给某一段NSString设置超链接样式
                        DESC
 
   s.homepage         = 'https://github.com/信勇哥得水牛/LYAttributedString'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '信勇哥得水牛' => '517661395@qq.com' }
   s.source           = { :git => 'https://github.com/信勇哥得水牛/LYAttributedString.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
   s.ios.deployment_target = '8.0'
-
   s.source_files = 'LYAttributedString/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'LYAttributedString' => ['LYAttributedString/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

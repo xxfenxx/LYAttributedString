@@ -1,0 +1,6 @@
+framework module Pods_LYAttributedString_Tests {
+  umbrella header "Pods-LYAttributedString_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

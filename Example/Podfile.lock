@@ -1,0 +1,16 @@
+PODS:
+  - LYAttributedString (0.1.0)
+
+DEPENDENCIES:
+  - LYAttributedString (from `../`)
+
+EXTERNAL SOURCES:
+  LYAttributedString:
+    :path: ../
+
+SPEC CHECKSUMS:
+  LYAttributedString: 1deb8c36acfe3d5a0691863d8e7689923ba2a2d4
+
+PODFILE CHECKSUM: 88dd7688bad5423102a1e1efc63a4679a5a47faf
+
+COCOAPODS: 1.1.1

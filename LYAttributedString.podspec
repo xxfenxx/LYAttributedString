@@ -24,10 +24,10 @@ Pod::Spec.new do |s|
     18. 给某一段NSString设置超链接样式
                        DESC
 
-  s.homepage         = 'https://github.com/信勇哥得水牛/LYAttributedString'
+  s.homepage         = 'https://github.com/LiangyongFShen/LYAttributedString'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '信勇哥得水牛' => '517661395@qq.com' }
-  s.source           = { :git => 'https://github.com/信勇哥得水牛/LYAttributedString.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/LiangyongFShen/LYAttributedString.git', :tag => s.version.to_s }
   s.ios.deployment_target = '8.0'
   s.source_files = 'LYAttributedString/Classes/**/*'
 end
